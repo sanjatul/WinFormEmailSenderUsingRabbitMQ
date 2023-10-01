@@ -69,7 +69,7 @@ namespace RabbitMQConsumer
                 MailMessage mail = new MailMessage();
                 mail.From = new MailAddress("shsiam800@gmail.com");
                 mail.To.Add(emailMessage.RecipientEmail);
-                mail.Subject = "Email Subject";
+                mail.Subject = "RabbitMQ Mailer";
                 mail.Body = emailMessage.EmailBody;
 
                 // Configure SMTP credentials and other settings for Gmail
@@ -95,6 +95,10 @@ namespace RabbitMQConsumer
             }
         }
 
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 
     public class EmailMessage

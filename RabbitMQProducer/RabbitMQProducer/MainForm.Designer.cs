@@ -35,15 +35,16 @@
             // 
             // emailTextBox
             // 
-            emailTextBox.Location = new Point(180, 90);
+            emailTextBox.Location = new Point(166, 90);
+            emailTextBox.Multiline = true;
             emailTextBox.Name = "emailTextBox";
-            emailTextBox.Size = new Size(493, 23);
+            emailTextBox.Size = new Size(493, 151);
             emailTextBox.TabIndex = 0;
             // 
             // Details
             // 
             Details.AutoSize = true;
-            Details.Location = new Point(337, 42);
+            Details.Location = new Point(355, 45);
             Details.Name = "Details";
             Details.Size = new Size(74, 15);
             Details.TabIndex = 1;
@@ -52,7 +53,7 @@
             // StartSendingButton
             // 
             StartSendingButton.BackColor = SystemColors.ControlDark;
-            StartSendingButton.Location = new Point(337, 262);
+            StartSendingButton.Location = new Point(337, 276);
             StartSendingButton.Name = "StartSendingButton";
             StartSendingButton.Size = new Size(75, 23);
             StartSendingButton.TabIndex = 2;
